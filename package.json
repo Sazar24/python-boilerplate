@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "python-starter",
+  "main": "this-is-not-js-project",
+  "scripts": {
+    "start": "python src/appStarter.py"
+  },
+  "keywords": [
+    "python"
+  ],
+  "author": "cb",
+  "license": "ISC"
+}
