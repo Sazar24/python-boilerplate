@@ -4,11 +4,16 @@
   "description": "python-starter",
   "main": "this-is-not-js-project",
   "scripts": {
-    "start": "python src/appStarter.py"
+    "prebuild": "python -m venv venv",
+    "prepare-dev--this-is-hint": "%cd%/venv/scripts/activate",
+    "start": "nodemon --exec %cd%/venv/scripts/python.exe src/appStarter.py"
   },
   "keywords": [
     "python"
   ],
   "author": "cb",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
 }

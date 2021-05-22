@@ -1,6 +1,8 @@
-from config import setProjectPath
+from config import setProjectPath  # type: ignore
 setProjectPath()
 
-if __name__ == "__main__": 
-    from app.appRunner import App
-    App().run()
+if __name__ == "__main__":
+    from src.app.appRunner import App
+
+    app = App()
+    app.run()

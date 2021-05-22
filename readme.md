@@ -1,5 +1,10 @@
 ## About
-This is just a simple boilerplate to quick-start python app with some basic class-oriented architecture.
+This is just a simple boilerplate to quick-start python app with some basic class-oriented architecture in visual studio code environment.
+
+# What-it-gives:
+- Compatible with vscode pyright extension. 
+- - it means that static typing checks is finally suported in python (without mypy)
+- supports full imports paths starting with "src." (like: "from src.app.services.exampleService import ExampleService ")
 
 ## podstawowe informacje rozruchowe:
 - do każdego podfolderu wrzucać plik __init__.py
